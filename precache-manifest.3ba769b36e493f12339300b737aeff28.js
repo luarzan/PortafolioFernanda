@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acf9d21b41bb0586095092a1a400776e",
+    "revision": "cb95791728c5dca033c082b5c24ce37c",
     "url": "/PortafolioFernanda/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortafolioFernanda/static/css/2.ff29e5f6.chunk.css"
   },
   {
-    "revision": "899e6ca853453194ea07",
+    "revision": "ecd8e1635f8130fe6b1e",
     "url": "/PortafolioFernanda/static/css/main.be785b88.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortafolioFernanda/static/js/2.67da3614.chunk.js"
   },
   {
-    "revision": "899e6ca853453194ea07",
-    "url": "/PortafolioFernanda/static/js/main.e68a6d08.chunk.js"
+    "revision": "ecd8e1635f8130fe6b1e",
+    "url": "/PortafolioFernanda/static/js/main.ab7c38a1.chunk.js"
   },
   {
     "revision": "7f906c7994e46eb8340b",

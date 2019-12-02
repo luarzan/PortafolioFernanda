@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PortafolioFernanda/static/css/main.be785b88.chunk.css",
-    "main.js": "/PortafolioFernanda/static/js/main.e68a6d08.chunk.js",
-    "main.js.map": "/PortafolioFernanda/static/js/main.e68a6d08.chunk.js.map",
+    "main.js": "/PortafolioFernanda/static/js/main.ab7c38a1.chunk.js",
+    "main.js.map": "/PortafolioFernanda/static/js/main.ab7c38a1.chunk.js.map",
     "runtime-main.js": "/PortafolioFernanda/static/js/runtime-main.0020cb35.js",
     "runtime-main.js.map": "/PortafolioFernanda/static/js/runtime-main.0020cb35.js.map",
     "static/css/2.ff29e5f6.chunk.css": "/PortafolioFernanda/static/css/2.ff29e5f6.chunk.css",
     "static/js/2.67da3614.chunk.js": "/PortafolioFernanda/static/js/2.67da3614.chunk.js",
     "static/js/2.67da3614.chunk.js.map": "/PortafolioFernanda/static/js/2.67da3614.chunk.js.map",
     "index.html": "/PortafolioFernanda/index.html",
-    "precache-manifest.00bd19f084eb7c1aee304418890ad435.js": "/PortafolioFernanda/precache-manifest.00bd19f084eb7c1aee304418890ad435.js",
+    "precache-manifest.3ba769b36e493f12339300b737aeff28.js": "/PortafolioFernanda/precache-manifest.3ba769b36e493f12339300b737aeff28.js",
     "service-worker.js": "/PortafolioFernanda/service-worker.js",
     "static/css/2.ff29e5f6.chunk.css.map": "/PortafolioFernanda/static/css/2.ff29e5f6.chunk.css.map",
     "static/css/main.be785b88.chunk.css.map": "/PortafolioFernanda/static/css/main.be785b88.chunk.css.map",
@@ -83,6 +83,6 @@
     "static/css/2.ff29e5f6.chunk.css",
     "static/js/2.67da3614.chunk.js",
     "static/css/main.be785b88.chunk.css",
-    "static/js/main.e68a6d08.chunk.js"
+    "static/js/main.ab7c38a1.chunk.js"
   ]
 }
