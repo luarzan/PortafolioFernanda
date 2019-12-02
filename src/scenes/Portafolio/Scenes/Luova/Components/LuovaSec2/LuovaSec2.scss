@@ -1,0 +1,19 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.LuovaSec2{
+&-secondSection{
+    height: 100vh;
+    width: 55vw;
+    display: flex;
+    position: relative;
+    &-img{
+        height: 100%;
+        width: 70%;
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    }
+}

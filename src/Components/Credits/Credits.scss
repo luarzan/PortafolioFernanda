@@ -1,0 +1,29 @@
+@import '../../assets/styles/colors.scss';
+@import '../../assets/styles/measures.scss';
+
+.Credits{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: $elements-space;
+    margin-bottom: $elements-space;
+    &-title{
+        cursor: pointer;
+    }
+    & p{
+        font-family: 'Montserrat-semibold',sans-serif;
+        font-size: $root-fontSize*1.5;
+        color: $lush-black;
+    }
+    &-list{
+        &-item{
+            margin-bottom: $elements-space;
+            font-family: 'Montserrat-light',sans-serif;
+            list-style: none;
+            font-size: $root-fontSize*1.1;
+            &-title{
+                font-family: 'Montserrat-semibold',sans-serif;
+            }
+        }
+    }
+}

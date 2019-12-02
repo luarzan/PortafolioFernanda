@@ -1,0 +1,36 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.LushSecondPart{
+&-secondSection{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-concepto{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 $elements-space*6 0 $elements-space*9;
+        &-text{
+            font-size: $root-fontSize*7;
+            color: $lush-black;
+            font-family: 'Baskerville-regular',sans-serif;
+        }
+    }
+    &-amorPropio{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 $elements-space*5;
+        &-text{
+            font-size: $root-fontSize*7;
+            color: $lush-amarillo;
+            font-family: 'Baskerville-regular',sans-serif;
+        }
+    }
+}
+}

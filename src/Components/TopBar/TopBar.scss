@@ -1,0 +1,39 @@
+@import '../../assets/styles/colors.scss';
+@import '../../assets/styles/measures.scss';
+
+.TopBar{
+    height: $topBar-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $white;
+    padding: $padding-boxes $padding-boxes*2;
+    position: fixed;
+    right: 0;
+    left: 0;
+    &.light{
+        color: $background-color !important;
+    }
+    &-proyectos{
+        cursor: pointer;
+        font-size: $root-fontSize;
+        letter-spacing: 2px;
+        font-family: 'Montserrat-light',sans-serif;
+        &::before{
+            content: '';
+            background-color: $white;
+            height: 1px;
+            width: 6rem;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 0;
+        }
+    }
+    &-about{
+        cursor: pointer;
+        font-size: $root-fontSize;
+        letter-spacing: 2px;
+        font-family: 'Montserrat-semibold',sans-serif;
+    }
+}

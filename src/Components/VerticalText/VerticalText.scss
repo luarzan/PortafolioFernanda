@@ -1,0 +1,91 @@
+@import '../../assets/styles/colors.scss';
+@import '../../assets/styles/measures.scss';
+@import '../../assets/fonts/fonts.scss';
+
+.VerticalText{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    writing-mode: vertical-lr;
+    // transform: rotate(180deg);
+    display: flex;
+    white-space: nowrap;
+    animation-name: rollUp;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    &.customPosition{
+        right: unset;
+        left: 0;
+    }
+    &-firstGroup,&-secondGroup{
+        display: flex;
+        position: relative;
+        &-word{
+            display: flex;
+            font-size: $root-fontSize*8;
+            font-family: 'Baskerville-regular',sans-serif; 
+            margin-top: $elements-space*3.5;
+            margin-bottom: $elements-space*3.5;
+        }
+    }
+&-firstGroup{
+    &::after{
+        content: '';
+        position: absolute;
+        transform: translate(-50%, -50%) rotate(90deg);
+        top: 0;
+        left: 50%;
+        height: 1px;
+        width: 15rem;
+        background-color: $lush-black;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%, -50%) rotate(90deg);
+        bottom: 0;
+        left: 50%;
+        height: 1px;
+        width: 15rem;
+        background-color: $lush-black;
+    }
+    &-text{
+        &::after{
+            content: '';
+            position: absolute;
+            transform: translate(-50%, -50%) rotate(90deg);
+            top: 50%;
+            left: 50%;
+            height: 1px;
+            width: 15rem;
+            background-color: $lush-black;
+        }
+    }  
+}
+&-secondGroup {
+    &::after{
+        content: '';
+        position: absolute;
+        transform: translate(-50%, -50%) rotate(90deg);
+        bottom: 0;
+        left: 50%;
+        height: 1px;
+        width: 15rem;
+        background-color: $lush-black;
+    }
+    &-text{
+        &::after{
+            content: '';
+            position: absolute;
+            transform: translate(-50%, -50%) rotate(90deg);
+            top: 50%;
+            left: 50%;
+            height: 1px;
+            width: 15rem;
+            background-color: $lush-black;
+        }
+    }  
+}
+}

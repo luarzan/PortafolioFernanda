@@ -1,0 +1,56 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.BarricaSec6{
+    &-sixthSection{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &-imgContainer{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            &-left{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: $elements-space*2;
+            }
+            &-right{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+        &-img{
+            height:75%;
+            width: 33.333%;
+            background-size: cover;
+            background-position:center;
+            background-repeat: no-repeat;
+            position: relative;
+            &-circle{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 30;
+            }
+        }
+        &-credits{
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            margin-left: $elements-space*3;
+        }
+    }
+}

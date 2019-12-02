@@ -1,0 +1,62 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.BloomSec1{
+&-firstSection{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    &-imgMain{
+        width: 25%;
+        height: 60%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top:50%;
+        left: 65%;
+        z-index: 100;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &-img{
+        height: 100%;
+        width:40%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+&-titleWrapper{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+&-title{
+    text-align: center;
+    width: 330px;
+    &-campaign{
+        font-family: 'Montserrat-medium',sans-serif;
+        color:$lush-mutedBlack;
+        font-size: $root-fontSize;
+        letter-spacing: 2px;
+    }
+    &-bloom{
+        font-family: 'Baskerville-regular',sans-serif;
+        color:$Bloom-NaranjaFuerte;
+        font-size: $root-fontSize*4;
+        margin-bottom: $elements-space;
+    }
+    &-text{
+        font-family: 'Montserrat-light',sans-serif;
+        color: $lush-grey;
+        font-size: $root-fontSize*1.2;
+        & span{
+            font-style: italic;
+        }
+    }
+}
+}   

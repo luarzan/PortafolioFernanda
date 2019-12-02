@@ -1,0 +1,61 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.BloomSec2{
+&-secondSection{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: $elements-space*3;
+    }
+    &-gridItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & p{
+            color: $lush-grey;
+            font-size: $root-fontSize;
+            margin-top: $root-fontSize;
+        }
+    }
+    &-pantone{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: $elements-space*3;
+        row-gap: $elements-space*3;
+        grid-template-rows: repeat(2,1fr);
+        margin-left: $elements-space*5;
+        &-item{
+            border-radius: 200px;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-creame{
+                background-color:$Bloom-AzulFuerte;
+            }
+            &-red{
+                background-color:$Bloom-NaranjaClaro;
+            }
+            &-white{
+                background-color:$Bloom-AzulClaro;
+            }
+            &-black{
+                background-color:$Bloom-NaranjaFuerte;
+            }
+            &-green{
+                background-color:$Bloom-Rosa;
+            }
+            &-brown{
+                background-color:$Bloom-Nude;
+            }
+        }
+    }
+}

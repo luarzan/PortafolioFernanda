@@ -1,0 +1,22 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.DressSec2{
+    &-secondSection{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: $elements-space*3;
+        &-img{
+            width: 60%;
+            height: 90%;
+            background-size: contain;
+            background-position:70% 50%;
+            background-repeat: no-repeat;
+        }
+    }
+}

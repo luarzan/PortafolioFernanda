@@ -1,0 +1,128 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.BarricaSec4{
+&-fourthSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    margin-left: $elements-space*3;
+    &-imgContainer{
+        position: relative;
+        width: 650px;
+        height: 100%;
+        margin-left: $elements-space*5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-img{
+            width: 100%;
+            height: 80%;
+            background-size: cover;
+            background-position:center;
+            background-repeat: no-repeat;
+        }
+    }
+    &-square{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $lush-pink;
+        height: 90%;
+        width: 90%;
+        overflow: hidden;
+        &-img1{
+            width: 70%;
+            height: 50%;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        &-img2{
+            position: absolute;
+            width: 10rem;
+            height: 12rem;
+            top: -10px;
+            left: -20px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        &-img3{
+            position: absolute;
+            width: 10rem;
+            height: 12rem;
+            bottom: 0;
+            right: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    &-description{
+        height: 100%;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 30px;
+    }
+    &-title{
+        margin-bottom: $elements-space;
+        & p{
+            font-size: $root-fontSize;
+            font-family: 'Montserrat-light',sans-serif;
+            letter-spacing: 2px;
+        }
+    }
+    &-quote{
+        margin-bottom: $elements-space;
+    }
+    &-quote1,&-quote2,&-quote3,&-quote4{
+        display: flex;
+        justify-content: flex-start;
+        font-size: $root-fontSize*3;
+        color: $lush-green;
+        font-family: 'Baskerville-regular',sans-serif;
+        & svg{
+            width: 30px;
+            height: 30px;
+            & path{
+                fill:$lush-green;
+            }
+        }
+    }
+    &-quote4{
+        & svg{
+            transform: rotate(180deg);
+        }
+    }
+    &-bottom{
+        & p{
+            color:$lush-grey;
+            font-size: $root-fontSize;
+            font-family: 'Montserrat-light',sans-serif;
+        }
+    }
+}
+&-carousel{
+    margin-left: $elements-space*10;
+    margin-right: $elements-space*2;
+    height: 100%;
+    width: 30%;
+
+    overflow-y: scroll;
+    &-item{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+    }
+}
+}

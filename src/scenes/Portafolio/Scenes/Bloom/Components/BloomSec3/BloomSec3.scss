@@ -1,0 +1,21 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.BloomSec3{
+    &-thirdSection{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &-img{
+            width: 60%;
+            height: 60%;
+            background-size: contain;
+            background-position:center;
+            background-repeat: no-repeat;
+        }
+    }
+}

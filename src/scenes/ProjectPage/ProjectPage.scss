@@ -1,0 +1,94 @@
+@import '../../assets/styles/colors.scss';
+@import '../../assets/styles/measures.scss';
+@import '../../assets/fonts/fonts.scss';
+
+.ProjectPage{
+    position: relative;
+    height: 3500px;
+    overflow: hidden;
+    .RightArrow{
+        position: fixed;
+        transform: translate(-50%,-50%);
+        top: 45%;
+        right: 20px;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 100px;
+        opacity: 0;
+        animation-name:fadeArrow;
+        animation-duration: 1s;
+        animation-iteration-count: 3;
+        animation-delay: 3s;
+        animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        & svg{
+            width: 80%;
+            height: 80%;
+            & > *{
+                fill: white;
+                stroke: white;
+            }
+        }
+    }
+    &-cards{ 
+        width: 5000px;
+        height: calc(100vh - 20rem);
+        display: flex;
+        align-items: center;
+        position: fixed;
+        padding: 0 5rem;
+        top: calc(50vh - 20rem);
+        left: 0;
+        transition: right 3s;
+        transition-timing-function:cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        &.fadeIn{
+            right: 0;
+        }
+        &-img{
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            transition: .3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-origin: center;
+            cursor: pointer;
+            & p{
+                font-family: 'Baskerville-regular',sans-serif;
+                color: white;
+                font-size: 10rem;
+                text-align: center;
+                line-height: 100px;
+            }
+            &:hover{
+                transform: scale(.85);
+            }
+        }
+    }
+    &-cardsWrapper{
+        height: 330px;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 500px;
+        column-gap:200px;
+        overflow-x: scroll;
+    }
+}
+
+@keyframes fadeArrow{
+    0%{
+        transform: scale(1); opacity:0
+    }
+    50%{
+        transform: scale(1.2); opacity:1
+    }
+    100%{
+        transform: scale(1); opacity:0
+    }
+}

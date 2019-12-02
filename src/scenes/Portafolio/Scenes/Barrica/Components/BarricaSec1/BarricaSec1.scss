@@ -1,0 +1,49 @@
+@import '../../../../../../assets/styles/colors.scss';
+@import '../../../../../../assets/styles/measures.scss';
+@import '../../../../../../assets/fonts/fonts.scss';
+
+.BarricaSec1{
+&-firstSection{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    &-img{
+        height: 100%;
+        width:60%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+&-titleWrapper{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+&-title{
+    text-align: center;
+    width: 330px;
+    &-campaign{
+        font-family: 'Montserrat-medium',sans-serif;
+        color:$lush-mutedBlack;
+        font-size: $root-fontSize;
+        letter-spacing: 2px;
+    }
+    &-barrica{
+        font-family: 'Baskerville-regular',sans-serif;
+        color:$Barrica-Verde;
+        font-size: $root-fontSize*4;
+        margin-bottom: $elements-space;
+    }
+    &-text{
+        font-family: 'Montserrat-light',sans-serif;
+        color: $lush-grey;
+        font-size: $root-fontSize*1.2;
+        & span{
+            font-style: italic;
+        }
+    }
+}
+}   

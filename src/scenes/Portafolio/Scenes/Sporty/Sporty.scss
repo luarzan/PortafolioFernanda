@@ -1,0 +1,16 @@
+@import '../../../../assets/styles/colors.scss';
+@import '../../../../assets/styles/measures.scss';
+@import '../../../../assets/fonts/fonts.scss';
+
+.Sporty{
+    height: 3500px;
+    overflow: hidden;
+    &-content{
+        width: 10000px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        // background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(40,130,200,1) 64%, rgba(44,123,195,1) 72%, rgba(0,212,255,1) 100%);
+    }
+}

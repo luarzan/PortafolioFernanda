@@ -1,0 +1,20 @@
+@import './colors.scss';
+@import './measures.scss';
+@import '../fonts/fonts.scss';
+
+
+html{
+    font-size: 62.5%;
+}
+::-webkit-scrollbar{
+    display: none; 
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+.App{
+   width: 100vw;
+   height: 100vh;
+}

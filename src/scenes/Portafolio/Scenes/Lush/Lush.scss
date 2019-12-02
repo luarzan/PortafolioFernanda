@@ -1,0 +1,133 @@
+@import '../../../../assets/styles/colors.scss';
+@import '../../../../assets/styles/measures.scss';
+@import '../../../../assets/fonts/fonts.scss';
+
+.Lush{
+    height: 4200px;
+    overflow: hidden;
+    &-content{
+        width: 10000px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        // background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(40,130,200,1) 64%, rgba(44,123,195,1) 72%, rgba(0,212,255,1) 100%);
+    }
+    &-firstSection{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        &-img{
+            height: 100%;
+            width:60%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    &-titleWrapper{
+        height: 100vh;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-title{
+        text-align: center;
+        width: 330px;
+        &-campaign{
+            font-family: 'Montserrat-medium',sans-serif;
+            color:$lush-mutedBlack;
+            font-size: $root-fontSize;
+            letter-spacing: 2px;
+        }
+        &-lush{
+            font-family: 'Baskerville-regular',sans-serif;
+            color:$lush-pink;
+            font-size: $root-fontSize*4;
+        }
+        &-text{
+            font-family: 'Montserrat-light',sans-serif;
+            color: $lush-grey;
+            font-size: $root-fontSize*1.2;
+            & span{
+                font-style: italic;
+            }
+        }
+    }
+    &-secondSection{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-concepto{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            padding: 0 $elements-space*6 0 $elements-space*9;
+            &-text{
+                font-size: $root-fontSize*7;
+                color: $lush-black;
+                font-family: 'Baskerville-regular',sans-serif;
+            }
+        }
+        &-amorPropio{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0 $elements-space*5;
+            &-text{
+                font-size: $root-fontSize*7;
+                color: $lush-amarillo;
+                font-family: 'Baskerville-regular',sans-serif;
+            }
+        }
+    }
+    &-thirdSection{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        &-square{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: calc(50% - 45vh);
+            left: 0;
+            background-color: $lush-pink;
+            height: 90vh;
+            width: 40%;
+            margin-left: $elements-space*5;
+            overflow: hidden;
+            &-img1{
+                width: 70%;
+                height: 50%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            &-img2{
+                position: absolute;
+                width: 10rem;
+                height: 12rem;
+                top: -10px;
+                left: -20px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            &-img3{
+                position: absolute;
+                width: 10rem;
+                height: 12rem;
+                bottom: 0;
+                right: 0;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
